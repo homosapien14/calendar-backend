@@ -1,3 +1,6 @@
+[build]
+    index="index"
+
 [[redirects]] 
   to=”/.netlify/index:splat” 
   from=”/*” 
