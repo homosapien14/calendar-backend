@@ -1,0 +1,4 @@
+[[redirects]] 
+  to=”/.netlify/index:splat” 
+  from=”/*” 
+  status=200
