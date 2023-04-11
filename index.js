@@ -19,10 +19,13 @@ mongoose
 app.use(cors());
 app.use(express.json());
 
-app.use('/',taskRouters);
+app.use('/.netlify/functions/tasks.route',taskRouters);
 
 
   
 
 app.listen(PORT, () => console.log("Server running on port", PORT));
+
+
+module.exports.handler = app;
 

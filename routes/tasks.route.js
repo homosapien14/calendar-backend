@@ -4,4 +4,4 @@ const serverless = require('serverless-http');
 
 router.post("/enroll", enroll);
 
-module.exports = serverless(router);
+module.exports = router;
